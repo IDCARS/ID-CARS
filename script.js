@@ -115,3 +115,46 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+const annonces = [
+  {
+    titre: "Kia Sportage 1.7 CRDi 115 ch – 2016",
+    prix: "10 500 €",
+    km: "200 000 km",
+    annee: "2016",
+    image: "assets/kia-sportage.jpg",
+    description: "SUV diesel fiable, GPS, carnet d’entretien complet Kia, très bien suivi. Parfait pour trajets quotidiens & voyages."
+  },
+  {
+    titre: "Volkswagen Tiguan 2.0 TDI 150 4Motion Carat – 2016",
+    prix: "18 900 €",
+    km: "127 800 km",
+    annee: "2016",
+    image: "assets/vw-tiguan.jpg",
+    description: "Version Carat full options (cuir, toit ouvrant, GPS, LED, aides à la conduite). 4Motion, état impeccable, révisions à jour."
+  }
+];
+
+// Fonction d'affichage
+function renderAnnonces() {
+  const list = document.getElementById("annonces-list");
+  const home = document.getElementById("annonces-home");
+
+  if (!list && !home) return;
+
+  annonces.forEach(a => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <img src="${a.image}" alt="${a.titre}" style="border-radius:10px;margin-bottom:10px">
+      <h3>${a.titre}</h3>
+      <p>${a.annee} • ${a.km}</p>
+      <p><strong>${a.prix}</strong></p>
+      <p class="muted">${a.description}</p>
+    `;
+    if (list) list.appendChild(card);
+    if (home) home.appendChild(card.cloneNode(true));
+  });
+}
+
+document.addEventListener("DOMContentLoaded", renderAnnonces);
+
