@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Déposer une annonce – ID Cars</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.png" alt="ID Cars" class="logo" />
+      <span class="brand-name">ID Cars</span>
+    </a>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="annonces.html">Annonces</a>
+      <a href="deposer.html" class="active">Déposer</a>
+      <a href="avis.html">Avis</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <h1 class="page-title">Déposer une annonce</h1>
+    <div class="grid-2">
+      <form id="annonce-form" class="card form">
+        <label>Titre de l’annonce
+          <input type="text" id="titre" placeholder="Ex : Peugeot 208 1.2 PureTech 2019" required />
+        </label>
+        <label>Description
+          <textarea id="description" rows="5" placeholder="État, entretien, kilométrage, options…" required></textarea>
+        </label>
+        <label>Photo principale
+          <input type="file" id="photo" accept="image/*" />
+        </label>
+        <button type="submit" class="btn">Publier</button>
+        <p class="muted">Aucune annonce n’est publiée sans votre accord explicite.</p>
+      </form>
+
+      <div class="card glow">
+        <h3>Besoin d’aide ?</h3>
+        <p>Vous préférez que nous gérions tout par message ? Envoyez-nous les infos et les photos :</p>
+        <div class="contact-block">
+          <a class="btn" href="https://wa.me/33619186822" target="_blank" rel="noopener">WhatsApp : 06 19 18 68 22</a>
+          <a class="btn ghost" href="mailto:ydrix07@icloud.com">ydrix07@icloud.com</a>
+        </div>
+        <p class="muted">Gratuit, simple et sans prise de tête.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 ID Cars</p>
+  </footer>
+</body>
+</html>
