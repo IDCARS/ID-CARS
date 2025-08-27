@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ID Cars – Vente de voitures clé en main</title>
-  <meta name="description" content="Nous vendons votre voiture à votre place, gratuitement. Création d’annonce pro, filtrage des acheteurs, organisation des visites et négociation : on s’occupe de tout.">
+  <title>ID CARS – Accueil</title>
+  <meta name="description" content="On s’occupe de la vente, vous encaissez le prix. Service gratuit, transparent et humain.">
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <header class="navbar">
     <a href="index.html" class="brand">
-      <img src="assets/logo.png" alt="ID Cars" class="logo" />
-      <span class="brand-name">ID Cars</span>
+      <img src="assets/logo.png" alt="ID CARS" class="logo" />
+      <span class="brand-name">ID CARS</span>
     </a>
     <nav>
-      <a href="index.html">Accueil</a>
+      <a href="index.html" class="active">Accueil</a>
+      <a href="presentation.html">Présentation</a>
       <a href="annonces.html">Annonces</a>
       <a href="deposer.html">Déposer</a>
       <a href="avis.html">Avis</a>
@@ -23,76 +25,47 @@
 
   <section class="hero">
     <div class="hero-inner">
-      <h1>On s’occupe de la vente, <br class="br-md"/>vous encaissez le prix.</h1>
-      <p class="subtitle">Service 100% gratuit pour le vendeur • Transparent • Humain • Efficace</p>
+      <h1>On s’occupe de la vente,<br class="br-md" />vous encaissez le prix.</h1>
+      <p class="subtitle">Service 100% gratuit • Transparence totale • Accompagnement humain</p>
       <div class="cta">
-        <a class="btn" href="annonces.html">Voir les annonces</a>
-        <a class="btn ghost" href="deposer.html">Déposer ma voiture</a>
+        <a class="btn" href="deposer.html">Vendre ma voiture</a>
+        <a class="btn ghost" href="annonces.html">Voir les annonces</a>
       </div>
     </div>
   </section>
 
   <main>
-    <!-- Présentation société -->
-    <section class="section about">
-      <div class="grid-2">
-        <div>
-          <h2>Nous vendons votre voiture à votre place, <span class="accent">gratuitement</span>.</h2>
-          <p>Vous voulez vendre votre voiture mais vous n’avez pas le temps de gérer les appels, les messages et les rendez-vous ? Nous nous occupons de tout le processus de A à Z, <strong>sans aucun frais</strong> pour vous.</p>
-          <div class="features">
-            <div class="feature"><span class="emoji">📸</span> Création d’une annonce <strong>professionnelle et attractive</strong></div>
-            <div class="feature"><span class="emoji">📞</span> Gestion des contacts et <strong>sélection des acheteurs sérieux</strong></div>
-            <div class="feature"><span class="emoji">🚗</span> Mise en valeur du véhicule (photos + <strong>description détaillée</strong>)</div>
-            <div class="feature"><span class="emoji">✅</span> <strong>Négociation</strong> pour obtenir le meilleur prix</div>
-            <div class="feature"><span class="emoji">🕒</span> <strong>Gain de temps</strong> et tranquillité d’esprit</div>
-          </div>
-          <div class="note">👉 Vous gardez toujours le dernier mot : <strong>aucune vente n’est faite sans votre accord</strong>.</div>
+    <section class="section">
+      <div class="grid-3">
+        <div class="card glow">
+          <h3>Gratuit</h3>
+          <p>Aucune commission. Vous gardez 100% du prix de vente.</p>
         </div>
         <div class="card glow">
-          <h3>Pourquoi c’est gratuit ?</h3>
-          <p>Ce service est proposé par un <strong>étudiant passionné d’automobile</strong> qui souhaite se construire une expérience et développer son réseau. C’est <strong>gagnant-gagnant</strong> : vous vendez plus facilement, et nous progressons dans notre domaine.</p>
-          <div class="contact-block">
-            <a class="btn" href="https://wa.me/33619186822" target="_blank" rel="noopener">WhatsApp : 06 19 18 68 22</a>
-            <a class="btn ghost" href="mailto:ydrix07@icloud.com">ydrix07@icloud.com</a>
-          </div>
+          <h3>De A à Z</h3>
+          <p>Annonce pro, tri des acheteurs, visites, négociation.</p>
+        </div>
+        <div class="card glow">
+          <h3>Confiance</h3>
+          <p>Vous décidez toujours. Transparence totale.</p>
         </div>
       </div>
-    </section>
-
-    <!-- Engagements / Preuves -->
-    <section class="section promises">
-      <h2>Nos engagements</h2>
-      <ol class="steps">
-        <li><strong>Service 100 % gratuit pour le vendeur.</strong> Contrairement aux garages ou mandataires qui prennent une commission ou achètent en dessous du prix, nous ne prenons <em>aucun frais</em>. Vous gardez 100 % du prix final.</li>
-        <li><strong>On s’occupe de tout de A à Z.</strong> Pas seulement poster une annonce : nous rédigeons, prenons les photos, filtrons les acheteurs, gérons les appels/messages et organisons les visites.</li>
-        <li><strong>Transparence totale.</strong> C’est toujours le propriétaire qui a le dernier mot. Nous faisons le travail, <em>vous encaissez l’argent</em>. Pas de commission cachée.</li>
-        <li><strong>Service humain et personnalisé.</strong> Pas une grosse plateforme impersonnelle : un accompagnement <em>disponible et à l’écoute</em>, pour chaque vendeur.</li>
-        <li><strong>Gain de temps et sérénité.</strong> Finis les appels incessants, les curieux et la négociation fatigante : on simplifie tout.</li>
-        <li><strong>Approche gagnant–gagnant.</strong> Vente rapide au bon prix pour vous, expérience et réseau pour nous : relation saine et de confiance.</li>
-      </ol>
-      <div class="cta center">
-        <a class="btn" href="deposer.html">Vendre mon véhicule</a>
-        <a class="btn ghost" href="annonces.html">Voir les annonces</a>
+      <div class="cta center" style="margin-top:18px">
+        <a class="btn" href="presentation.html">Découvrir le service</a>
       </div>
     </section>
 
-    <!-- Objectifs / IDRISS -->
-    <section class="section goals">
-      <div class="card">
-        <h2>Notre mission</h2>
-        <ul class="bullets">
-          <li>Présenter un <strong>service de vente clé en main</strong></li>
-          <li>Générer des <strong>contacts</strong> et demandes de rendez-vous</li>
-          <li><strong>Inspirer confiance</strong> auprès des vendeurs</li>
-          <li>Démontrer notre <strong>sérieux</strong> et notre valeur ajoutée</li>
-          <li>Aider les particuliers à <strong>vendre rapidement et simplement</strong></li>
-        </ul>
+    <section class="section">
+      <h2 class="center">Dernières annonces</h2>
+      <div id="annonces-home" class="cards"></div>
+      <div class="cta center">
+        <a class="btn ghost" href="annonces.html">Toutes les annonces</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>© 2025 ID Cars • <a href="https://wa.me/33619186822" target="_blank" rel="noopener">WhatsApp</a> • <a href="mailto:ydrix07@icloud.com">Email</a></p>
+    <p>© 2025 ID CARS • <a href="https://wa.me/33619186822" target="_blank" rel="noopener">WhatsApp</a> • <a href="mailto:ydrix07@icloud.com">Email</a></p>
   </footer>
 </body>
 </html>

@@ -3,18 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Déposer une annonce – ID Cars</title>
+  <title>Déposer une annonce – ID CARS</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
 <body>
   <header class="navbar">
     <a href="index.html" class="brand">
-      <img src="assets/logo.png" alt="ID Cars" class="logo" />
-      <span class="brand-name">ID Cars</span>
+      <img src="assets/logo.png" alt="ID CARS" class="logo" />
+      <span class="brand-name">ID CARS</span>
     </a>
     <nav>
       <a href="index.html">Accueil</a>
+      <a href="presentation.html">Présentation</a>
       <a href="annonces.html">Annonces</a>
       <a href="deposer.html" class="active">Déposer</a>
       <a href="avis.html">Avis</a>
@@ -24,34 +25,39 @@
   <main class="section">
     <h1 class="page-title">Déposer une annonce</h1>
     <div class="grid-2">
-      <form id="annonce-form" class="card form">
-        <label>Titre de l’annonce
-          <input type="text" id="titre" placeholder="Ex : Peugeot 208 1.2 PureTech 2019" required />
-        </label>
-        <label>Description
-          <textarea id="description" rows="5" placeholder="État, entretien, kilométrage, options…" required></textarea>
-        </label>
-        <label>Photo principale
-          <input type="file" id="photo" accept="image/*" />
-        </label>
-        <button type="submit" class="btn">Publier</button>
-        <p class="muted">Aucune annonce n’est publiée sans votre accord explicite.</p>
+      <form id="form-deposer" class="card form">
+        <h3>Vos coordonnées</h3>
+        <label>Nom <input type="text" id="nom" required></label>
+        <label>Email <input type="email" id="email" required></label>
+        <label>Téléphone <input type="tel" id="tel" placeholder="06 xx xx xx xx" /></label>
+
+        <h3>Informations véhicule</h3>
+        <label>Marque / Modèle <input type="text" id="modele" required placeholder="Ex : Peugeot 308 1.2 PureTech" /></label>
+        <label>Année <input type="number" id="annee" min="1980" max="2030" required /></label>
+        <label>Kilométrage <input type="number" id="km" min="0" step="1" required /></label>
+        <label>Prix souhaité (€) <input type="number" id="prix" min="0" step="100" required /></label>
+        <label>Description <textarea id="description" rows="5" placeholder="État, entretien, options..." required></textarea></label>
+        <label>Photos (1 à 5) <input type="file" id="photos" accept="image/*" multiple /></label>
+
+        <button type="submit" class="btn">📩 Envoyer ma demande</button>
+        <p class="muted">Aucun frais, aucune vente sans votre accord.</p>
       </form>
 
       <div class="card glow">
         <h3>Besoin d’aide ?</h3>
-        <p>Vous préférez que nous gérions tout par message ? Envoyez-nous les infos et les photos :</p>
+        <p>Envoyez directement vos infos et photos :</p>
         <div class="contact-block">
-          <a class="btn" href="https://wa.me/33619186822" target="_blank" rel="noopener">WhatsApp : 06 19 18 68 22</a>
-          <a class="btn ghost" href="mailto:ydrix07@icloud.com">ydrix07@icloud.com</a>
+          <a class="btn" href="https://wa.me/33619186822" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a class="btn ghost" href="mailto:ydrix07@icloud.com">✉️ Email</a>
         </div>
-        <p class="muted">Gratuit, simple et sans prise de tête.</p>
       </div>
     </div>
+
+    <div id="submit-result" class="card" style="display:none;margin-top:18px"></div>
   </main>
 
   <footer class="footer">
-    <p>© 2025 ID Cars</p>
+    <p>© 2025 ID CARS</p>
   </footer>
 </body>
 </html>
