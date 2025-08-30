@@ -8,6 +8,31 @@
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
 </head>
+  <script type="module">
+  // Import direct via CDN
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { getAuth } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
+  import { getStorage } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
+
+  // Ta configuration (copiée de Firebase Console)
+  const firebaseConfig = {
+    apiKey: "AIzaSyDY7ISXWDfbMkbZei6apFlcJu-x3TpJxIw",
+    authDomain: "idcars-8975e.firebaseapp.com",
+    projectId: "idcars-8975e",
+    storageBucket: "idcars-8975e.appspot.com",  // ⚠️ ici tu avais mis ".firebasestorage.app", corrige en ".appspot.com"
+    messagingSenderId: "867124266960",
+    appId: "1:867124266960:web:ce9664e565b10766d99bd5"
+  };
+
+  // Init Firebase
+  const app = initializeApp(firebaseConfig);
+
+  // Tu peux maintenant utiliser Auth, Storage, etc.
+  const auth = getAuth(app);
+  const storage = getStorage(app);
+
+  console.log("Firebase est bien initialisé ✅", app);
+</script>
 <body>
   <header class="navbar">
     <a href="index.html" class="brand">
