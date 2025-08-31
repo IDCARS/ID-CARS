@@ -133,28 +133,28 @@ const annonces = [
     description: "Version Carat full options (cuir, toit ouvrant, GPS, LED, aides à la conduite). 4Motion, état impeccable, révisions à jour."
   },
   {
-    titre: "Peugeot 208 1.2 PureTech 82ch Active – 2018",
-    prix: "9 200 €",
-    km: "89 500 km",
-    annee: "2018",
+    titre: "Volkswagen Golf GTD – 2.0 TDI 184 ch",
+    prix: "12500",
+    km: "203 000 km",
+    annee: "2013",
     image: "assets/peugeot-208.jpg",
-    description: "Petite citadine économique et fiable, faible consommation, entretien suivi chez Peugeot. Idéal pour jeunes conducteurs."
+    description: "Volkswagen Golf GTD, compacte sportive et confortable. Intérieur sport cuir/alcantara avec surpiqûres GTD, sièges avant chauffants, volant sport multifonction à méplat avec palettes (DSG), grand écran GPS avec système multimédia complet (Bluetooth, USB, SD). Caméra de recul avec radars avant/arrière, régulateur de vitesse adaptatif, aides à la conduite avec freinage d’urgence, climatisation automatique bi-zone. Éclairage Full LED/Xénon directionnel, feux de jour LED, jantes alliage 18’’ GTD spécifiques, vitres arrière surteintées, pack chrome extérieur, rétroviseurs électriques rabattables et dégivrants. ✨ Une compacte sportive, économique et fiable, parfaite aussi bien pour un usage quotidien que pour se faire plaisir sur route.
   },
   {
-    titre: "Renault Clio V TCe 90 Intens – 2020",
-    prix: "14 800 €",
-    km: "41 200 km",
-    annee: "2020",
+    titre: "Kia Sportage 1.7 CRDi 115 ch – 2016",
+    prix: "10 500 €",
+    km: "200 00 km",
+    annee: "2016",
     image: "assets/renault-clio.jpg",
-    description: "Dernière génération, finition Intens avec écran tactile, Android Auto/Apple CarPlay, radar de recul et caméra. Très bon état."
+    description: "Kia Sportage 1.7 CRDi 115 ch de 2016 (4e génération phase 1), SUV diesel fiable, économique et bien entretenu, idéal pour la ville comme pour les longs trajets. Boîte manuelle 6 rapports, 200 000 km (évolutifs), chaîne de distribution robuste, entretien suivi exclusivement en concession Kia jusqu’à 183 000 km avec carnet et factures. Équipements : grand écran multimédia avec GPS intégré, Bluetooth et commandes au volant, climatisation automatique bi-zone, régulateur et limiteur de vitesse, feux LED diurnes, jantes alliage 17’’, banquette arrière rabattable 60/40 offrant un grand coffre, ABS, ESP et 6 airbags. Un SUV polyvalent, confortable et prêt à prendre la route."
   },
   {
-    titre: "BMW Série 3 Touring 320d xDrive – 2015",
-    prix: "16 900 €",
-    km: "155 000 km",
-    annee: "2015",
+    titre: "Opel Crossland 1.5D 110 ELEGANCE",
+    prix: "11 900 €",
+    km: "103 000 km",
+    annee: "2021",
     image: "assets/bmw-serie3.jpg",
-    description: "Break diesel 190 ch, transmission intégrale, confortable et fiable. Carnet d’entretien complet, pneus récents."
+    description: "Opel Crossland 1.5D 110 ch Élégance de 2021, gris métallisé, 5 places, boîte manuelle 6 vitesses, 110 ch, kit distribution remplacé récemment. Très bon état avec carnet d’entretien complet et contrôle technique OK. Équipements : climatisation automatique, GPS, Bluetooth, USB, ordinateur de bord, sellerie cuir/tissu, allumage auto des feux, vitres et rétroviseurs électriques dégivrants, jantes alliage, peinture métallisée, ABS, airbags, capteur de pluie, régulateur et limiteur de vitesse. Un SUV moderne, fiable et économique, idéal pour un usage quotidien.."
   },
   {
     titre: "Audi A3 Sportback 1.6 TDI – 2017",
@@ -163,14 +163,6 @@ const annonces = [
     annee: "2017",
     image: "assets/audi-a3.jpg",
     description: "Audi A3 en très bon état, finition Ambition, sièges sport, GPS intégré, historique limpide. Consommation très faible."
-  },
-  {
-    titre: "Dacia Duster 1.5 dCi 110 4x4 – 2019",
-    prix: "13 200 €",
-    km: "95 000 km",
-    annee: "2019",
-    image: "assets/dacia-duster.jpg",
-    description: "SUV robuste et pratique, 4 roues motrices, parfait pour campagne/montagne. Entretien complet, CT OK."
   }
 ];
 // Fonction d'affichage
