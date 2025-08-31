@@ -145,7 +145,7 @@ const annonces = [
     prix: "10 500 €",
     km: "200 00 km",
     annee: "2016",
-    image: "assets/renault-clio.jpg",
+    image: "assets/assets/bmw-serie3.jpg",
     description: "Kia Sportage 1.7 CRDi 115 ch de 2016 (4e génération phase 1), SUV diesel fiable, économique et bien entretenu, idéal pour la ville comme pour les longs trajets. Boîte manuelle 6 rapports, 200 000 km (évolutifs), chaîne de distribution robuste, entretien suivi exclusivement en concession Kia jusqu’à 183 000 km avec carnet et factures. Équipements : grand écran multimédia avec GPS intégré, Bluetooth et commandes au volant, climatisation automatique bi-zone, régulateur et limiteur de vitesse, feux LED diurnes, jantes alliage 17’’, banquette arrière rabattable 60/40 offrant un grand coffre, ABS, ESP et 6 airbags. Un SUV polyvalent, confortable et prêt à prendre la route."
   },
   {
