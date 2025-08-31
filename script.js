@@ -129,7 +129,7 @@ const annonces = [
     prix: "21 300 €",
     km: "127 800 km",
     annee: "2016",
-    image: "assets/vw-tiguan.jpg",
+    image: "assets/assets/vw-tiguan.jpg",
     description: "Version Carat full options (cuir, toit ouvrant, GPS, LED, aides à la conduite). 4Motion, état impeccable, révisions à jour."
   }
 ];
