@@ -156,14 +156,6 @@ const annonces = [
     image: "assets/bmw-serie3.jpg",
     description: "Opel Crossland 1.5D 110 ch Élégance de 2021, gris métallisé, 5 places, boîte manuelle 6 vitesses, 110 ch, kit distribution remplacé récemment. Très bon état avec carnet d’entretien complet et contrôle technique OK. Équipements : climatisation automatique, GPS, Bluetooth, USB, ordinateur de bord, sellerie cuir/tissu, allumage auto des feux, vitres et rétroviseurs électriques dégivrants, jantes alliage, peinture métallisée, ABS, airbags, capteur de pluie, régulateur et limiteur de vitesse. Un SUV moderne, fiable et économique, idéal pour un usage quotidien.."
   },
-  {
-    titre: "Audi A3 Sportback 1.6 TDI – 2017",
-    prix: "15 500 €",
-    km: "120 000 km",
-    annee: "2017",
-    image: "assets/audi-a3.jpg",
-    description: "Audi A3 en très bon état, finition Ambition, sièges sport, GPS intégré, historique limpide. Consommation très faible."
-  }
 ];
 // Fonction d'affichage
 function renderAnnonces() {
