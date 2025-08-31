@@ -121,7 +121,7 @@ const annonces = [
     prix: "5 500 €",
     km: "233 000 km",
     annee: "2017",
-    image: "assets/kia-sportage.jpg",
+    image: "assets/assets/kia-sportage.jpg",
     description: "je vous présente une voiture de 2017, Seat Ibiza, connect, idéal pour son usage quotidien, son moteur 1,04 l turbo essence de 90 chevaux et reconnu pour sa fiabilité et sa consommation avec 233 000 km, elle a été entretenu régulièrement et nécessite aucun frais immédiat. Elle est très bien équipée avec un écran tactile la climatisation, le régulateur de vitesse et toutes les fonctionnalités modernes. Contactez-nous pour plus d'informations."
   },
   {
