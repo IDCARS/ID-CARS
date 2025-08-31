@@ -122,7 +122,7 @@ const annonces = [
     km: "233 000 km",
     annee: "2017",
     image: "assets/assets/assets/kia-sportage.jpg",
-    description: "Seat Ibiza 2017, connect, idéal pour son usage quotidien, son moteur 1,04 l turbo essence de 90 chevaux et reconnu pour sa fiabilité et sa consommation avec 233 000 km, elle a été entretenu régulièrement et nécessite aucun frais immédiat. Elle est très bien équipée avec un écran tactile la climatisation, le régulateur de vitesse et toutes les fonctionnalités modernes. Contactez-nous pour plus d'informations."
+    description: "Seat Ibiza 2017, connect, idéal pour son usage quotidien, son moteur 1,04 l turbo essence de 90 chevaux et reconnu pour sa fiabilité et sa consommation avec 233 000 km, elle a été entretenue régulièrement et nécessite aucun frais immédiat. Elle est très bien équipée avec un écran tactile, la climatisation, le régulateur de vitesse et toutes les fonctionnalités modernes. Contactez-nous pour plus d'informations."
   },
   {
     titre: "Volkswagen Tiguan 2.0 TDI 150 4Motion Carat – 2016",
@@ -131,9 +131,48 @@ const annonces = [
     annee: "2016",
     image: "assets/assets/vw-tiguan.jpg",
     description: "Version Carat full options (cuir, toit ouvrant, GPS, LED, aides à la conduite). 4Motion, état impeccable, révisions à jour."
+  },
+  {
+    titre: "Peugeot 208 1.2 PureTech 82ch Active – 2018",
+    prix: "9 200 €",
+    km: "89 500 km",
+    annee: "2018",
+    image: "assets/peugeot-208.jpg",
+    description: "Petite citadine économique et fiable, faible consommation, entretien suivi chez Peugeot. Idéal pour jeunes conducteurs."
+  },
+  {
+    titre: "Renault Clio V TCe 90 Intens – 2020",
+    prix: "14 800 €",
+    km: "41 200 km",
+    annee: "2020",
+    image: "assets/renault-clio.jpg",
+    description: "Dernière génération, finition Intens avec écran tactile, Android Auto/Apple CarPlay, radar de recul et caméra. Très bon état."
+  },
+  {
+    titre: "BMW Série 3 Touring 320d xDrive – 2015",
+    prix: "16 900 €",
+    km: "155 000 km",
+    annee: "2015",
+    image: "assets/bmw-serie3.jpg",
+    description: "Break diesel 190 ch, transmission intégrale, confortable et fiable. Carnet d’entretien complet, pneus récents."
+  },
+  {
+    titre: "Audi A3 Sportback 1.6 TDI – 2017",
+    prix: "15 500 €",
+    km: "120 000 km",
+    annee: "2017",
+    image: "assets/audi-a3.jpg",
+    description: "Audi A3 en très bon état, finition Ambition, sièges sport, GPS intégré, historique limpide. Consommation très faible."
+  },
+  {
+    titre: "Dacia Duster 1.5 dCi 110 4x4 – 2019",
+    prix: "13 200 €",
+    km: "95 000 km",
+    annee: "2019",
+    image: "assets/dacia-duster.jpg",
+    description: "SUV robuste et pratique, 4 roues motrices, parfait pour campagne/montagne. Entretien complet, CT OK."
   }
 ];
-
 // Fonction d'affichage
 function renderAnnonces() {
   const list = document.getElementById("annonces-list");
