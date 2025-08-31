@@ -117,12 +117,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 const annonces = [
   {
-    titre: "Kia Sportage 1.7 CRDi 115 ch – 2016",
-    prix: "10 500 €",
-    km: "200 000 km",
-    annee: "2016",
+    titre: "Seat Ibiza Connect 1.4 Turbo 2017",
+    prix: "5 500 €",
+    km: "233 000 km",
+    annee: "2017",
     image: "assets/kia-sportage.jpg",
-    description: "SUV diesel fiable, GPS, carnet d’entretien complet Kia, très bien suivi. Parfait pour trajets quotidiens & voyages."
+    description: "je vous présente une voiture de 2017, Seat Ibiza, connect, idéal pour son usage quotidien, son moteur 1,04 l turbo essence de 90 chevaux et reconnu pour sa fiabilité et sa consommation avec 233 000 km, elle a été entretenu régulièrement et nécessite aucun frais immédiat. Elle est très bien équipée avec un écran tactile la climatisation, le régulateur de vitesse et toutes les fonctionnalités modernes. Contactez-nous pour plus d'informations."
   },
   {
     titre: "Volkswagen Tiguan 2.0 TDI 150 4Motion Carat – 2016",
