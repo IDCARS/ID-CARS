@@ -155,7 +155,7 @@ const annonces = [
     annee: "2021",
     image: "assets/assets/bmw-serie3.jpg",
     description: "Opel Crossland 1.5D 110 ch Élégance de 2021, gris métallisé, 5 places, boîte manuelle 6 vitesses, 110 ch, kit distribution remplacé récemment. Très bon état avec carnet d’entretien complet et contrôle technique OK. Équipements : climatisation automatique, GPS, Bluetooth, USB, ordinateur de bord, sellerie cuir/tissu, allumage auto des feux, vitres et rétroviseurs électriques dégivrants, jantes alliage, peinture métallisée, ABS, airbags, capteur de pluie, régulateur et limiteur de vitesse. Un SUV moderne, fiable et économique, idéal pour un usage quotidien.."
-  }
+  },
 ];
 // Fonction d'affichage
 function renderAnnonces() {
