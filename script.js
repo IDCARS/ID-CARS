@@ -137,7 +137,7 @@ const annonces = [
     prix: "12500",
     km: "203 000 km",
     annee: "2013",
-    image: "assets/peugeot-208.jpg",
+    image: "assets/assets/peugeot-208.jpg",
     description: "Volkswagen Golf GTD, compacte sportive et confortable. Intérieur sport cuir/alcantara avec surpiqûres GTD, sièges avant chauffants, volant sport multifonction à méplat avec palettes (DSG), grand écran GPS avec système multimédia complet (Bluetooth, USB, SD). Caméra de recul avec radars avant/arrière, régulateur de vitesse adaptatif, aides à la conduite avec freinage d’urgence, climatisation automatique bi-zone. Éclairage Full LED/Xénon directionnel, feux de jour LED, jantes alliage 18’’ GTD spécifiques, vitres arrière surteintées, pack chrome extérieur, rétroviseurs électriques rabattables et dégivrants. ✨ Une compacte sportive, économique et fiable, parfaite aussi bien pour un usage quotidien que pour se faire plaisir sur route.
   },
   {
