@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!target) return;
     const annonces = load();
     if (!annonces.length){
-      target.innerHTML = '<div class="card">Aucune annonce pour le moment. Déposez la vôtre depuis la page <strong>Déposer</strong> 👇</div>';
+      target.innerHTML = '<div class="card"Déposez la vôtre depuis la page <strong>Déposer</strong> 👇</div>';
       return;
     }
     target.innerHTML = '';
